@@ -1,0 +1,14 @@
+
+h1{color: blue;}
+          h2{color:darkblue;text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+          .header{display: flex;background-color: aqua;justify-content: space-between;border :solid;border-radius: 5px;border-color: rgb(120, 42, 165);padding-left: 50px;}
+    a{margin-top: 30px;}
+          .projects{display: flex;justify-content:space-around;flex-wrap: wrap;border: solid;border-color: rgb(43, 168, 226);}
+    .project1{border:double;align-content: center;border-radius: 10px;margin-top: 80px;}
+body{background-color:#3a888eec;}
+a:link{color: burlywood;}
+a:visited{color: cornflowerblue;}
+.project1{position: relative;}
+.project1 h2{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);opacity: 0;}
+.project1:hover h2{opacity: 2;}
+.project1:hover img{opacity: 0.1;}
